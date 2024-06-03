@@ -19,6 +19,8 @@ public class conexionResponsables {
     private Connection cnx = null;
     private Statement sttm = null;
     private ResultSet rst = null;
+    private String nombre;
+  
 
     
     public conexionResponsables(){
